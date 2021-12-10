@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\controller">
+      <UniqueIdentifier>{8f54f1b3-4bf1-4ea0-a2d4-791676bb0d53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\model">
+      <UniqueIdentifier>{edbf2d2c-24bd-420d-9181-e2107650425b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\view_glfw">
+      <UniqueIdentifier>{2b0fa4c1-c47d-4e6d-ac66-2ac96a969ab7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\imgui">
+      <UniqueIdentifier>{3057bfef-16b7-4d0f-a68f-7750e16a9a51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\imgui\filebrowser">
+      <UniqueIdentifier>{83dc5aaa-2b6d-4056-bfc7-491e977c8a13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\imgui\imguizmo">
+      <UniqueIdentifier>{3dd5640f-953d-483e-ac3b-9fd68b2bbc5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\imgui\cpp">
+      <UniqueIdentifier>{e4157c05-d234-4e93-99d2-49fef3cef26a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\controller\PoseController.h">
+      <Filter>Source Files\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="src\view_glfw\ViewerGUI.h">
+      <Filter>Source Files\view_glfw</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ModelInterface.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ViewerInterface.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Launcher.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imstb_rectpack.h">
+      <Filter>Source Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imstb_textedit.h">
+      <Filter>Source Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imstb_truetype.h">
+      <Filter>Source Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imconfig.h">
+      <Filter>Source Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imgui.h">
+      <Filter>Source Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imgui_impl_glfw.h">
+      <Filter>Source Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imgui_impl_opengl3.h">
+      <Filter>Source Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imgui_internal.h">
+      <Filter>Source Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imgui_impl_opengl3_loader.h">
+      <Filter>Source Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\filebrowser\imfilebrowser.h">
+      <Filter>Source Files\imgui\filebrowser</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ControllerInterface.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\model\PoseDataUtil.h">
+      <Filter>Source Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\model\PoseDataModel.h">
+      <Filter>Source Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PoseData.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\misc\cpp\imgui_stdlib.h">
+      <Filter>Source Files\imgui\cpp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\controller\PoseController.cxx">
+      <Filter>Source Files\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="src\view_glfw\ViewerGUI.cxx">
+      <Filter>Source Files\view_glfw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Launcher.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_tables.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_widgets.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_demo.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_draw.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_impl_glfw.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_impl_opengl3.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model\PoseDataUtil.cxx">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model\PoseDataModel.cxx">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\misc\cpp\imgui_stdlib.cpp">
+      <Filter>Source Files\imgui\cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

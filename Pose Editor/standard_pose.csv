@@ -1,0 +1,8 @@
+1, -1, 0, 0, 0, 1, Pelvis
+2, 1, 0, 0, 0, 1, Spine
+3, 2, 0, 0, 0, 1, Right_Shoulder
+4, 3, 0, 0, 0, 1, Right_Arm
+5, 2, 0, 0, 0, 1, Left_Shoulder
+6, 5, 0, 0, 0, 1, Left_Arm
+7, 1, 0, 0, 0, 1, Left_Leg
+8, 1, 0, 0, 0, 1, Right_Leg

@@ -1,0 +1,58 @@
+=== Instructions for: Pose Editor Ver 1.00 ===
+
+Author: David Hrusa
+Email: hrusadav@gmail.com
+Date: 9/7/2021
+
+___ instructions ___
+In order to execute the application properly it needs to share directory with the /data folder.
+
+___ manual ___
+The Bone Editor can display the list of bones in several configurations:
+- hierarchy ON: 	Shows bones ordered from root to children with indentations.
+- hierarchy OFF: 	Show bones in the same order as they are listed in the .csv file.
+- simple ON: 		Only displays bone name, add child and delete keys.
+- simple OFF: 		Displays full bone controls.
+
+The file menu consists of four options:
+- New:		Creates an entirely blank project.
+- Open:		Brings up an opening dialog to browse for a file to open.
+- Save:		If the file has been saved or opened, saves to that location.
+- Save as:	Brings up a saving dialog to choose an output path.
+
+If the application is closed while the current working file is unsaved, the user
+will be shown a warning message with an option to cancel.
+
+Full bone controls:
+- mini-buttons:
+	.move up: 	Shifts the bone up in the csv ordering of bones.
+	.move down: Shifts the bone down in the csv ordering of bones.
+	.add child: Creates a new bone with a procedurally unique name as a child.
+	.remove: 	Removes this bone. All children are assigned to this bone's parent.
+- name:		Changes the display name.
+- parent: 	Dropdown selection of a parent node / [Root]. Multiple root elements are permited.
+- angle:	Euler angle controls.
+
+___ platform ___
+All external libraries are compiled for x64 Windows, debug and release. C++17 required.
+
+The project is currently configured for GLFW and OpenGL 3. If you need to work with a different window library or render API replace the imgui backends (imgui_impl_*.h/.cpp) at: src/imgui their alternatives are found in the imgui-master/backends folder on their git.
+
+
+___ dependency ___
+GLM			https://github.com/g-truc/glm (https://glm.g-truc.net/0.9.9/index.html)
+GLEW-2.1.0	https://github.com/nigels-com/glew (http://glew.sourceforge.net/)
+GLFW		https://github.com/glfw/glfw (https://www.glfw.org/)
+imgui		https://github.com/ocornut/imgui
+CImg		https://github.com/dtschump/CImg (https://www.cimg.eu/)
+
+___ other components ___
+imgui-filebrowser		https://github.com/AirGuanZ/imgui-filebrowser
+
+___ license ___
+GLM	(The Happy Bunny (Modified MIT))	license/GLM_LICENSE.txt	
+GLEW									license/GLEW_LICENSE.txt
+GLFW									license/GLFW_LICENSE.md
+imgui(MIT)								license/ImGui_LICENSE.txt
+imgui-filebrowser(MIT)					license/ImGuiFilebrowser_LICENSE
+CImg									license/Licence_CeCILL_V2-en.txt
